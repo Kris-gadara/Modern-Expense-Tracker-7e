@@ -1,30 +1,42 @@
-# Modern Expense Tracker
+# 💰 Modern Expense Tracker
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A beautifully designed, fully responsive **Expense Tracking Web App** that helps users manage their daily, weekly, and monthly spending with ease. It offers a clean dashboard, categorized tracking, and intuitive UI optimized for all devices.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/kris-gadaras-projects/v0-modern-expense-tracker)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/TJudv13ZrdO)
+🌐 **Live Demo**: [v0-modern-expense-tracker.vercel.app](https://v0-modern-expense-tracker-gamma.vercel.app/dashboard)
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🚀 Features
 
-## Deployment
+- 🔐 **User Authentication** with login/signup
+- 📊 **Dashboard** showing expense summary and trends
+- ➕ **Add New Expense** with title, amount, category, and date
+- 📅 **Filter by Time** (day, week, month)
+- 🧾 **Expense History** with delete and edit functionality
+- 📈 **Category-Wise Charts** for clear visualization
+- 🎨 **Dark/Light Mode**
+- ⚙️ **Settings Page** for theme and account
+- 💬 **Toasts/Notifications** for success/error
+- 📱 **Fully Responsive Design**
+- 🎯 **Smooth UI Animations & Transitions**
 
-Your project is live at:
+---
 
-**[https://vercel.com/kris-gadaras-projects/v0-modern-expense-tracker](https://vercel.com/kris-gadaras-projects/v0-modern-expense-tracker)**
+## 🛠️ Tech Stack
 
-## Build your app
+- **Frontend**: React.js, Next.js (App Router)
+- **UI/Styling**: Tailwind CSS, ShadCN UI
+- **Charts**: Recharts
+- **Animations**: Framer Motion
+- **State Management**: React Hooks + Local State
+- **Storage**: LocalStorage (for now)
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/TJudv13ZrdO](https://v0.dev/chat/projects/TJudv13ZrdO)**
+## 📦 Installation & Setup
 
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```bash
+git clone https://github.com/your-username/modern-expense-tracker.git
+cd modern-expense-tracker
+npm install
+npm run dev
