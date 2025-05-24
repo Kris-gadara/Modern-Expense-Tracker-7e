@@ -175,4 +175,3 @@ export function RecentTransactions({ limit }: { limit?: number }) {
     </div>
   )
 }
-

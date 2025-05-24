@@ -84,4 +84,3 @@ const ChartLegendItem = React.forwardRef<HTMLDivElement, ChartLegendItemProps>(
 ChartLegendItem.displayName = "ChartLegendItem"
 
 export { Chart, ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendItem }
-

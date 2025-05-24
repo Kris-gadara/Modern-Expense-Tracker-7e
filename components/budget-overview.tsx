@@ -100,4 +100,3 @@ export function BudgetOverview() {
     </div>
   )
 }
-

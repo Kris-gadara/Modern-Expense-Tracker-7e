@@ -171,4 +171,3 @@ export function ExpenseProvider({ children }) {
 
 // Custom hook to use the expense context
 export const useExpenseContext = () => useContext(ExpenseContext)
-
